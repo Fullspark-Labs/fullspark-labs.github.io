@@ -2,8 +2,8 @@ title: Fullspark Labs
 description: Developer productivity CLI tools and tutorials
 url: https://fullspark-labs.github.io
 
-# Indigo theme - use as remote theme
-remote_theme: sergiokopplin/indigo
+# Use GitHub Pages supported theme
+theme: jekyll-theme-cayman
 
 # Build settings
 markdown: kramdown
