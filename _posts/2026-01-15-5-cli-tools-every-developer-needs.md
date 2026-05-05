@@ -1,6 +1,7 @@
 ---
 title: "5 CLI Tools Every Developer Needs in 2026"
 date: 2026-01-15
+image: https://avatars.githubusercontent.com/u/281868970?v=4
 categories:
   - developer-tools
   - cli
@@ -12,11 +13,6 @@ tags:
   - command-line
   - open-source
 excerpt: "Supercharge your workflow with these essential CLI tools. Block secrets in git, undo any commit, and manage ports effortlessly."
-header:
-  teaser: /assets/images/cli-tools.jpg
-  overlay_image: /assets/images/cli-tools.jpg
-  overlay_filter: 0.5
-  caption: "CLI Tools for Developers"
 seo:
   title: "5 CLI Tools Every Developer Needs in 2026 | Fullspark Labs"
   description: "Discover 5 essential CLI tools for developers. Block secrets with hook, undo commits with git-undo, manage ports, and more. Open source and free."
@@ -28,11 +24,6 @@ seo:
     - developer productivity
     - command line tools
     - open source cli tools
-  og:
-    title: "5 CLI Tools Every Developer Needs in 2026"
-    type: article
-    url: https://fullspark-labs.github.io
-    image: /assets/images/cli-tools.jpg
 ---
 
 As developers, we spend hours in the terminal every day. The right CLI tools can save us time, prevent costly mistakes, and make our workflow smoother.

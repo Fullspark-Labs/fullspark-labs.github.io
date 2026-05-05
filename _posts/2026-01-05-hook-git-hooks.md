@@ -1,6 +1,7 @@
 ---
 title: "hook - Git Hooks Without the Headache"
 date: 2026-01-05
+image: https://avatars.githubusercontent.com/u/281868970?v=4
 categories:
   - developer-tools
   - cli

@@ -27,6 +27,9 @@ excerpt_separator: "<!--more-->"
 social:
   github: Fullspark-Labs
 
+# Social sharing image
+social_image: https://avatars.githubusercontent.com/u/281868970?v=4
+
 # Footer
 footer:
   links:
