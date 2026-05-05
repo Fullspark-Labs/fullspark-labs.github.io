@@ -1,4 +1,5 @@
 title: Fullspark Labs
+description: Developer productivity CLI tools and tutorials
 url: https://fullspark-labs.github.io
 author: Fullspark Labs
 github_username: Fullspark-Labs
@@ -9,6 +10,7 @@ width: normal
 projects: true
 about: true
 blog: true
+picture: https://avatars.githubusercontent.com/u/281868970?v=4
 
 # Build settings
 markdown: kramdown

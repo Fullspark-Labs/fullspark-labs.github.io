@@ -1,7 +1,6 @@
 ---
 title: "5 CLI Tools Every Developer Needs in 2026"
 date: 2026-01-15
-last_modified_at: 2026-01-15
 categories:
   - developer-tools
   - cli
