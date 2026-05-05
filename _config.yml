@@ -13,6 +13,7 @@ projects: true
 about: true
 blog: true
 picture: https://avatars.githubusercontent.com/u/281868970?v=4
+external-image: true
 
 # Build settings
 markdown: kramdown
