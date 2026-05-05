@@ -2,17 +2,33 @@
 layout: page
 title: Projects
 ---
+
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            {% if post.hidden != true %}
-                <div class="item {% if post.star %}star{% endif %}">
-                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                        <h3 class="title">{{ post.title }}</h3>
-                    </a>
-                </div>
-            {% endif %}
-        {% endif %}
-    {% endfor %}
+    <div class="item">
+        <a class="url" href="https://github.com/Fullspark-Labs/hook">
+            <h3 class="title">hook - Git Hooks Manager</h3>
+            <p class="excerpt">Block secrets before they hit GitHub. Enforce conventions. Run checks. All with one command.</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a class="url" href="https://github.com/Fullspark-Labs/git-undo">
+            <h3 class="title">git-undo - Undo Anything in Git</h3>
+            <p class="excerpt">Made a mistake with git? No problem. Undo commits, pushes, merges, and stashes safely.</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a class="url" href="https://github.com/Fullspark-Labs/port">
+            <h3 class="title">port - Manage Localhost Ports</h3>
+            <p class="excerpt">Kill processes on ports, reserve ports for projects, and manage localhost with ease.</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a class="url" href="https://github.com/Fullspark-Labs/speed">
+            <h3 class="title">speed - Aliases with Arguments</h3>
+            <p class="excerpt">Regular shell aliases don't accept arguments. speed fixes that - create command shortcuts that work cross-platform.</p>
+        </a>
+    </div>
 </section>
