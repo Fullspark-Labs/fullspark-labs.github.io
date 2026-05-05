@@ -1,9 +1,14 @@
 title: Fullspark Labs
-description: Developer productivity CLI tools and tutorials
 url: https://fullspark-labs.github.io
+author: Fullspark Labs
+github_username: Fullspark-Labs
 
-# Use GitHub Pages default theme (Primer)
-theme: jekyll-theme-primer
+# Indigo theme config
+dark-theme: false
+width: normal
+projects: true
+about: true
+blog: true
 
 # Build settings
 markdown: kramdown
@@ -12,10 +17,6 @@ permalink: /:title/
 
 # Excerpts
 excerpt_separator: "<!--more-->"
-
-# Author
-author: Fullspark Labs
-github_username: Fullspark-Labs
 
 # Social links
 social:
@@ -36,3 +37,10 @@ defaults:
       type: posts
     values:
       layout: post
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - FAQ.md
+  - vendor
