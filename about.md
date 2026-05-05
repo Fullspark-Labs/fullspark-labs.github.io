@@ -2,44 +2,24 @@
 title: About
 layout: page
 ---
+
 ![Profile Image]({% if site["external-image"] %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Fullspark Labs builds open-source CLI tools that make developers' lives easier. We focus on developer productivity, creating tools that solve real problems faced every day in the terminal.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Our tools help you block secrets before they hit GitHub, undo Git mistakes safely, manage localhost ports, and create powerful command shortcuts. Everything we build is free, open-source, and designed to integrate seamlessly into your workflow.
 
-<h2>Skills</h2>
+## Our Tools
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+- **hook** - Git hooks manager. Block secrets, enforce conventions, run checks with one command
+- **git-undo** - Undo anything in Git safely - commits, pushes, merges, stashes
+- **port** - Kill processes on ports, reserve ports for projects, manage localhost
+- **speed** - Create command shortcuts with arguments, cross-platform
 
-<h2>Projects</h2>
+## Mission
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+We believe developers should spend time building great software, not fighting with tooling. Every tool we create solves a specific pain point we've experienced ourselves.
+
+## Open Source
+
+All our tools are open-source and available on [GitHub](https://github.com/Fullspark-Labs). We welcome contributions and feedback from the community.
