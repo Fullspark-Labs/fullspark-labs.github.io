@@ -1,12 +1,55 @@
-title: Fullspark Labs CLI Tools
-description: Developer productivity CLI tools from Fullspark Labs
+title: Fullspark Labs
+description: Developer productivity CLI tools and tutorials
 author: Fullspark Labs
-show_excerpts: true
+url: https://fullspark-labs.github.io
+github_username: Fullspark-Labs
+twitter_username: fullsparklabs
 
-links:
-  - url: https://github.com/Fullspark-Labs
-    text: GitHub
-  - url: https://www.npmjs.com/org/fullsparklabs
-    text: npm
-  - url: https://twitter.com/fullsparklabs
-    text: Twitter
+# Use Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Excerpts
+excerpt_separator: <!--more-->
+
+# Social
+social:
+  name: Fullspark Labs
+  links:
+    - https://github.com/Fullspark-Labs
+    - https://twitter.com/fullsparklabs
+
+# Footer
+footer:
+  links:
+    - label: GitHub
+      url: https://github.com/Fullspark-Labs
+    - label: npm
+      url: https://www.npmjs.com/org/fullsparklabs
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      classes: wide
