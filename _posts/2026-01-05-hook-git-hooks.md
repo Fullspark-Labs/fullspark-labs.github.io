@@ -11,8 +11,6 @@ tags:
 excerpt: "Block secrets before they hit GitHub. Enforce conventions. Run checks. All with one command."
 ---
 
-# hook - Git Hooks Without the Headache
-
 Git hooks are powerful but underused. Most developers don't bother because writing and managing them is a pain.
 
 **hook** makes it easy.

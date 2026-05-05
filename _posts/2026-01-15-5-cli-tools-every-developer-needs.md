@@ -35,8 +35,6 @@ seo:
     image: /assets/images/cli-tools.jpg
 ---
 
-# 5 CLI Tools Every Developer Needs in 2026
-
 As developers, we spend hours in the terminal every day. The right CLI tools can save us time, prevent costly mistakes, and make our workflow smoother.
 
 Here are **5 open-source CLI tools** we've built at Fullspark Labs that you need in your toolkit.
