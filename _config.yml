@@ -2,8 +2,8 @@ title: Fullspark Labs
 description: Developer productivity CLI tools and tutorials
 url: https://fullspark-labs.github.io
 
-# Use GitHub Pages supported theme
-theme: jekyll-theme-cayman
+# Use GitHub Pages default theme (Primer)
+theme: jekyll-theme-primer
 
 # Build settings
 markdown: kramdown
