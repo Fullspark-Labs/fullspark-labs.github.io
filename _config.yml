@@ -5,8 +5,8 @@ url: https://fullspark-labs.github.io
 github_username: Fullspark-Labs
 twitter_username: fullsparklabs
 
-# Use Minimal Mistakes theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# GitHub Pages compatible config - no custom theme
+# Theme is handled by GitHub Pages
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
@@ -15,8 +15,6 @@ permalink: /:categories/:title/
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
 
 # Plugins
 plugins:
@@ -48,8 +46,5 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      classes: wide
+      layout: post
+      show_excerpts: true
