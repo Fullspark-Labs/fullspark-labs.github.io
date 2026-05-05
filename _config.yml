@@ -1,36 +1,25 @@
 title: Fullspark Labs
 description: Developer productivity CLI tools and tutorials
-author: Fullspark Labs
 url: https://fullspark-labs.github.io
-github_username: Fullspark-Labs
-twitter_username: fullsparklabs
 
-# GitHub Pages compatible config - no custom theme
-# Theme is handled by GitHub Pages
-markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:title/
+# Indigo theme - use as remote theme
+remote_theme: sergiokopplin/indigo
 
 # Build settings
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
 # Excerpts
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 
-# Social
+# Author
+author: Fullspark Labs
+github_username: Fullspark-Labs
+
+# Social links
 social:
-  name: Fullspark Labs
-  links:
-    - https://github.com/Fullspark-Labs
-    - https://twitter.com/fullsparklabs
+  github: Fullspark-Labs
 
 # Footer
 footer:
@@ -47,4 +36,3 @@ defaults:
       type: posts
     values:
       layout: post
-      show_excerpts: true
